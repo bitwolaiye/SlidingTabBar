@@ -6,8 +6,8 @@
 //  Copyright (c) 2013年 None. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "SlidingViewController.h"
 
-@interface FirstViewController : UIViewController
-
+@interface FirstViewController : SlidingViewController<UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 @end

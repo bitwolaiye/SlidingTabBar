@@ -17,12 +17,12 @@
 		DA58E33416D1C85C00E934EC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA58E33316D1C85C00E934EC /* Default@2x.png */; };
 		DA58E33616D1C85C00E934EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA58E33516D1C85C00E934EC /* Default-568h@2x.png */; };
 		DA58E33916D1C85C00E934EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA58E33716D1C85C00E934EC /* MainStoryboard.storyboard */; };
-		DA58E33C16D1C85C00E934EC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E33B16D1C85C00E934EC /* FirstViewController.m */; };
-		DA58E33E16D1C85C00E934EC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = DA58E33D16D1C85C00E934EC /* first.png */; };
-		DA58E34016D1C85C00E934EC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA58E33F16D1C85C00E934EC /* first@2x.png */; };
-		DA58E34316D1C85C00E934EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E34216D1C85C00E934EC /* SecondViewController.m */; };
-		DA58E34516D1C85C00E934EC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = DA58E34416D1C85C00E934EC /* second.png */; };
-		DA58E34716D1C85C00E934EC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA58E34616D1C85C00E934EC /* second@2x.png */; };
+		DA58E34F16D1CA1000E934EC /* SlidingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E34E16D1CA1000E934EC /* SlidingTabBarController.m */; };
+		DA58E35216D1CA7200E934EC /* SlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35116D1CA7200E934EC /* SlidingViewController.m */; };
+		DA58E35516D1CC3600E934EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA58E35416D1CC3600E934EC /* QuartzCore.framework */; };
+		DA58E35916D1CDEA00E934EC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35816D1CDEA00E934EC /* FirstViewController.m */; };
+		DA58E35C16D1CDF700E934EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35B16D1CDF700E934EC /* SecondViewController.m */; };
+		DA58E35F16D1CE1900E934EC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35E16D1CE1900E934EC /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +40,18 @@
 		DA58E33316D1C85C00E934EC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DA58E33516D1C85C00E934EC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DA58E33816D1C85C00E934EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DA58E33A16D1C85C00E934EC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		DA58E33B16D1C85C00E934EC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		DA58E33D16D1C85C00E934EC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		DA58E33F16D1C85C00E934EC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		DA58E34116D1C85C00E934EC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		DA58E34216D1C85C00E934EC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		DA58E34416D1C85C00E934EC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		DA58E34616D1C85C00E934EC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		DA58E34D16D1CA1000E934EC /* SlidingTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingTabBarController.h; sourceTree = "<group>"; };
+		DA58E34E16D1CA1000E934EC /* SlidingTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingTabBarController.m; sourceTree = "<group>"; };
+		DA58E35016D1CA7200E934EC /* SlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingViewController.h; sourceTree = "<group>"; };
+		DA58E35116D1CA7200E934EC /* SlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingViewController.m; sourceTree = "<group>"; };
+		DA58E35316D1CABD00E934EC /* SlidingTabBarItemInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlidingTabBarItemInterface.h; sourceTree = "<group>"; };
+		DA58E35416D1CC3600E934EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DA58E35716D1CDEA00E934EC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DA58E35816D1CDEA00E934EC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DA58E35A16D1CDF700E934EC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DA58E35B16D1CDF700E934EC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DA58E35D16D1CE1900E934EC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		DA58E35E16D1CE1900E934EC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA58E35516D1CC3600E934EC /* QuartzCore.framework in Frameworks */,
 				DA58E32016D1C85C00E934EC /* UIKit.framework in Frameworks */,
 				DA58E32216D1C85C00E934EC /* Foundation.framework in Frameworks */,
 				DA58E32416D1C85C00E934EC /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +89,7 @@
 		DA58E31E16D1C85C00E934EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA58E35416D1CC3600E934EC /* QuartzCore.framework */,
 				DA58E31F16D1C85C00E934EC /* UIKit.framework */,
 				DA58E32116D1C85C00E934EC /* Foundation.framework */,
 				DA58E32316D1C85C00E934EC /* CoreGraphics.framework */,
@@ -94,18 +100,16 @@
 		DA58E32516D1C85C00E934EC /* SlidingTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				DA58E35616D1CDC300E934EC /* SubController */,
+				DA58E35316D1CABD00E934EC /* SlidingTabBarItemInterface.h */,
 				DA58E32E16D1C85C00E934EC /* AppDelegate.h */,
 				DA58E32F16D1C85C00E934EC /* AppDelegate.m */,
 				DA58E33716D1C85C00E934EC /* MainStoryboard.storyboard */,
-				DA58E33A16D1C85C00E934EC /* FirstViewController.h */,
-				DA58E33B16D1C85C00E934EC /* FirstViewController.m */,
-				DA58E33D16D1C85C00E934EC /* first.png */,
-				DA58E33F16D1C85C00E934EC /* first@2x.png */,
-				DA58E34116D1C85C00E934EC /* SecondViewController.h */,
-				DA58E34216D1C85C00E934EC /* SecondViewController.m */,
-				DA58E34416D1C85C00E934EC /* second.png */,
-				DA58E34616D1C85C00E934EC /* second@2x.png */,
 				DA58E32616D1C85C00E934EC /* Supporting Files */,
+				DA58E34D16D1CA1000E934EC /* SlidingTabBarController.h */,
+				DA58E34E16D1CA1000E934EC /* SlidingTabBarController.m */,
+				DA58E35016D1CA7200E934EC /* SlidingViewController.h */,
+				DA58E35116D1CA7200E934EC /* SlidingViewController.m */,
 			);
 			path = SlidingTabBar;
 			sourceTree = "<group>";
@@ -122,6 +126,19 @@
 				DA58E33516D1C85C00E934EC /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA58E35616D1CDC300E934EC /* SubController */ = {
+			isa = PBXGroup;
+			children = (
+				DA58E35716D1CDEA00E934EC /* FirstViewController.h */,
+				DA58E35816D1CDEA00E934EC /* FirstViewController.m */,
+				DA58E35A16D1CDF700E934EC /* SecondViewController.h */,
+				DA58E35B16D1CDF700E934EC /* SecondViewController.m */,
+				DA58E35D16D1CE1900E934EC /* ThirdViewController.h */,
+				DA58E35E16D1CE1900E934EC /* ThirdViewController.m */,
+			);
+			name = SubController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +197,6 @@
 				DA58E33416D1C85C00E934EC /* Default@2x.png in Resources */,
 				DA58E33616D1C85C00E934EC /* Default-568h@2x.png in Resources */,
 				DA58E33916D1C85C00E934EC /* MainStoryboard.storyboard in Resources */,
-				DA58E33E16D1C85C00E934EC /* first.png in Resources */,
-				DA58E34016D1C85C00E934EC /* first@2x.png in Resources */,
-				DA58E34516D1C85C00E934EC /* second.png in Resources */,
-				DA58E34716D1C85C00E934EC /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +209,11 @@
 			files = (
 				DA58E32C16D1C85C00E934EC /* main.m in Sources */,
 				DA58E33016D1C85C00E934EC /* AppDelegate.m in Sources */,
-				DA58E33C16D1C85C00E934EC /* FirstViewController.m in Sources */,
-				DA58E34316D1C85C00E934EC /* SecondViewController.m in Sources */,
+				DA58E34F16D1CA1000E934EC /* SlidingTabBarController.m in Sources */,
+				DA58E35216D1CA7200E934EC /* SlidingViewController.m in Sources */,
+				DA58E35916D1CDEA00E934EC /* FirstViewController.m in Sources */,
+				DA58E35C16D1CDF700E934EC /* SecondViewController.m in Sources */,
+				DA58E35F16D1CE1900E934EC /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +301,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlidingTabBar/SlidingTabBar-Prefix.pch";
 				INFOPLIST_FILE = "SlidingTabBar/SlidingTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -296,6 +313,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlidingTabBar/SlidingTabBar-Prefix.pch";
 				INFOPLIST_FILE = "SlidingTabBar/SlidingTabBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -320,6 +338,7 @@
 				DA58E34C16D1C85C00E934EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

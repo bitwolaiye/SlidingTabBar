@@ -14,16 +14,52 @@
 
 @implementation SecondViewController
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+        self.tabbarCount = 3;
+        self.tabbarIndex = 1;
+    }
+    return self;
+}
+
+
+- (id)initWithCoder:(NSCoder *)aDecoder{
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        // Custom initialization
+        self.tabbarCount = 3;
+        self.tabbarIndex = 1;
+    }
+    return self;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+	// Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - datasource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;{
+    return 30;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SecondCell"];
+    cell.textLabel.text = [NSString stringWithFormat:@"Second:  %d  --    --    --  %d", indexPath.row, indexPath.row];
+    cell.detailTextLabel.text = @"Second";
+    return cell;
 }
 
 @end

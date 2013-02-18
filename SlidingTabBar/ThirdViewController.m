@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  ThirdViewController.m
 //  SlidingTabBar
 //
 //  Created by ZhouQi on 13-2-18.
 //  Copyright (c) 2013年 None. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "ThirdViewController.h"
 
-@interface FirstViewController ()
+@interface ThirdViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation ThirdViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -20,7 +20,7 @@
     if (self) {
         // Custom initialization
         self.tabbarCount = 3;
-        self.tabbarIndex = 0;
+        self.tabbarIndex = 2;
     }
     return self;
 }
@@ -30,7 +30,7 @@
     if (self) {
         // Custom initialization
         self.tabbarCount = 3;
-        self.tabbarIndex = 0;
+        self.tabbarIndex = 2;
     }
     return self;
 }
@@ -38,27 +38,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.tableView.delegate = self;
-    self.tableView.dataSource = self;
 	// Do any additional setup after loading the view.
+}
+
+- (void)viewDidLayoutSubviews{
+    
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - datasource
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;{
-    return 30;
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;{
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"FirstCell"];
-    cell.textLabel.text = [NSString stringWithFormat:@"First:  %d  --    --    --  %d", indexPath.row, indexPath.row];
-    cell.detailTextLabel.text = @"First";
-    return cell;
 }
 
 @end
