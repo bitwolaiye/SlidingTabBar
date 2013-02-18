@@ -15,13 +15,14 @@ support IOS tab bar can switch view with scroll horizontally.
 2. 如果你使用的是xcode4.6,请在storyboard中关闭auto-layout。（在storyboard界面按option+command+1，然后你可以在右边看见一个选择框“Use Autolayout”,不要选中它）
 3. 把 SlidingTabBarItemInterface.h, SlidingTabBarController.h, SlidingTabBarController.m, SlidingViewController.h, SlidingViewController.m 加入到你的项目中
 4. 在storyboard中指定tabbar controller的自定义类为SlidingTabBarController。
-5. 你可以添加你自己的viewcontroller，然后继承于SlidingViewController，重载- (id)initWithCoder:(NSCoder *)aDecoder 方法，设置tabbarCount和tabbarIndex。（tabbarCount是tabbar中viewcontroller的数目、tabbarIndex是当前viewcontroller在tabbar中的序号从0开始）。在storyboard中，你在一个空白的viewcontroller中添加一个UIScrollView，设置"Bounce Horizontally"选中，并于你的viewcontroller类里的scrollView链接上。
+5. 你可以添加你自己的viewcontroller，然后继承于SlidingViewController。在storyboard中，你在一个空白的viewcontroller中添加一个UIScrollView，设置"Bounce Horizontally"选中，并于你的viewcontroller类里的scrollView链接上。
 6. ok。运行。
 
 ###已知问题
 1. 滑动切换时，必须要等滚动动画完成时，tabbar才会切换。更合理的应该是手指离开屏幕，如果此时滑动的距离已会切换view则tabbar就开始切换，而非等动画走完。
 2. 第一次进入程序时，由于其他view还没真正加载，所以截图是空白。
-3. 快速的连续滑动最后一个界面有点卡顿。没想好为什么，猜测是view加载需要点时间，还没加载完？
+3. 快速的切换tabbar会导致界面卡住假死。我想应该是滑动动画还没完就开始另一个动画了，累积多了就像假死了。
+4. 快速的连续滑动最后一个界面有点卡顿。没想好为什么，猜测是view加载需要点时间，还没加载完？
  
 ###我
 email：bitwolaiye@gmail.com
