@@ -19,8 +19,6 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.tabbarCount = 3;
-        self.tabbarIndex = 2;
     }
     return self;
 }
@@ -29,8 +27,6 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         // Custom initialization
-        self.tabbarCount = 3;
-        self.tabbarIndex = 2;
     }
     return self;
 }

@@ -36,8 +36,11 @@
 {
     [super viewDidLoad];
     self.delegate = self;
-    for (SlidingTabBarController *controller in self.viewControllers) {
+    int index = 0;
+    for (SlidingViewController *controller in self.viewControllers) {
         controller.delegate = self;
+        controller.tabbarCount = [self.viewControllers count];
+        controller.tabbarIndex = index++;
     }
     for (UIView *view in self.view.subviews) {
         if ([view class] == [UITabBar class]) {
@@ -57,7 +60,7 @@
 
 #pragma mark - tabbar delegate
 
-- (void)setFilpboardViewLeftAndRightImage:(int)index {
+- (void)setOtherViewImage:(int)index {
     NSMutableArray *imageArray = [[NSMutableArray alloc] init];
     for (int i = 0; i < [self.viewControllers count]; i++) {
         if (i != index) {
@@ -95,7 +98,7 @@
         [self.view bringSubviewToFront:imageView];
         [imageViewArray addObject:imageView];
     }
-    [self setFilpboardViewLeftAndRightImage:end];
+    [self setOtherViewImage:end];
     
     [UIView animateWithDuration:0.3 animations:^{
         for (UIImageView *imageView in imageViewArray) {
@@ -116,7 +119,7 @@
 -(void)slidingView:(SlidingViewController *) viewController toPage:(int) page;{
     [self setSelectedIndex:page];
     [viewController resetScrollPosition];
-    [self setFilpboardViewLeftAndRightImage:page];
+    [self setOtherViewImage:page];
 }
 
 
