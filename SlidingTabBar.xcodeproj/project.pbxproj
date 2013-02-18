@@ -23,6 +23,7 @@
 		DA58E35916D1CDEA00E934EC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35816D1CDEA00E934EC /* FirstViewController.m */; };
 		DA58E35C16D1CDF700E934EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35B16D1CDF700E934EC /* SecondViewController.m */; };
 		DA58E35F16D1CE1900E934EC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35E16D1CE1900E934EC /* ThirdViewController.m */; };
+		DA58E36116D1D43900E934EC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA58E36016D1D43900E934EC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		DA58E35B16D1CDF700E934EC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DA58E35D16D1CE1900E934EC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		DA58E35E16D1CE1900E934EC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		DA58E36016D1D43900E934EC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		DA58E31316D1C85C00E934EC = {
 			isa = PBXGroup;
 			children = (
+				DA58E36016D1D43900E934EC /* README.md */,
 				DA58E32516D1C85C00E934EC /* SlidingTabBar */,
 				DA58E31E16D1C85C00E934EC /* Frameworks */,
 				DA58E31D16D1C85C00E934EC /* Products */,
@@ -197,6 +200,7 @@
 				DA58E33416D1C85C00E934EC /* Default@2x.png in Resources */,
 				DA58E33616D1C85C00E934EC /* Default-568h@2x.png in Resources */,
 				DA58E33916D1C85C00E934EC /* MainStoryboard.storyboard in Resources */,
+				DA58E36116D1D43900E934EC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
