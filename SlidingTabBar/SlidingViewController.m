@@ -73,13 +73,13 @@
     self.scrollView.showsHorizontalScrollIndicator = NO;
     self.scrollView.showsVerticalScrollIndicator = NO;
     
-    self.imageVewArray = [[NSMutableArray alloc] init];
+    self.imageViewArray = [[NSMutableArray alloc] init];
     
     for (int i = 0; i < self.tabbarCount; i++) {
         if (i != self.tabbarIndex) {
             UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width * i, 0, self.view.frame.size.width, self.view.frame.size.height - 49)];
             [self.scrollView addSubview:imageView];
-            [self.imageVewArray addObject:imageView];
+            [self.imageViewArray addObject:imageView];
         }
     }
 }
@@ -91,7 +91,7 @@
     self.scrollView.contentSize = CGSizeMake(width * self.tabbarCount, height);
     if (!initScrollView) {
         for (UIView *view in self.scrollView.subviews) {
-            if (![self.imageVewArray containsObject:view]) {
+            if (![self.imageViewArray containsObject:view]) {
                 view.frame = CGRectMake(view.frame.origin.x + width * self.tabbarIndex, view.frame.origin.y, view.frame.size.width, view.frame.size.height);
             }
         }
@@ -102,7 +102,7 @@
 
 - (void)viewWillDisappear:(BOOL)animated{
     [self resetScrollPosition];
-    for (UIImageView *imageView in self.imageVewArray) {
+    for (UIImageView *imageView in self.imageViewArray) {
         imageView.image = nil;
     }
 }
@@ -124,12 +124,12 @@
 
 #pragma mark - tab bar delegate
 -(void)slidingView:(SlidingViewController *) viewController toPage:(int) page;{
-    [self.delegate slidingView:self toPage:page];
+    [self.slidingViewDelegate slidingView:self toPage:page];
 }
 
 - (void) setImages:(NSArray *) imageArray;{
     for (int i = 0; i < [imageArray count]; i++) {
-        UIImageView *imageView = [self.imageVewArray objectAtIndex:i];
+        UIImageView *imageView = [self.imageViewArray objectAtIndex:i];
         imageView.image = [imageArray objectAtIndex:i];
     }
 }

@@ -38,7 +38,7 @@
     self.delegate = self;
     int index = 0;
     for (SlidingViewController *controller in self.viewControllers) {
-        controller.delegate = self;
+        controller.slidingViewDelegate = self;
         controller.tabbarCount = [self.viewControllers count];
         controller.tabbarIndex = index++;
     }

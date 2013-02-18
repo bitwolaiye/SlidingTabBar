@@ -26,9 +26,9 @@
 }
 
 @property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
-@property (nonatomic, weak) id<SlidingViewDelegate> delegate;
+@property (nonatomic, weak) id<SlidingViewDelegate> slidingViewDelegate;
 
-@property (nonatomic, strong) NSMutableArray *imageVewArray;
+@property (nonatomic, strong) NSMutableArray *imageViewArray;
 @property int tabbarIndex;
 @property int tabbarCount;
 
