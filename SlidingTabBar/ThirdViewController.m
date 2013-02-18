@@ -37,10 +37,6 @@
 	// Do any additional setup after loading the view.
 }
 
-- (void)viewDidLayoutSubviews{
-    
-}
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

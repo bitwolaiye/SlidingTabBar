@@ -22,13 +22,12 @@
 
 @interface SlidingViewController : UIViewController<SlidingViewDelegate, SlidingTabBarItemInterface, UIScrollViewDelegate>{
     SlidingScrollViewDelegate *scrollViewDelegate;
-    BOOL initScrollView;
 }
 
-@property (nonatomic, strong) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, strong) UIScrollView *slidingScrollView;
 @property (nonatomic, weak) id<SlidingViewDelegate> slidingViewDelegate;
 
-@property (nonatomic, strong) NSMutableArray *imageViewArray;
+@property (nonatomic, strong) NSMutableArray *otherViewScreenshotImageViewArray;
 @property int tabbarIndex;
 @property int tabbarCount;
 

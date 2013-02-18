@@ -15,7 +15,7 @@ support IOS tab bar can switch view with scroll horizontally.
 2. 如果你使用的是xcode4.6,请在storyboard中关闭auto-layout。（在storyboard界面按option+command+1，然后你可以在右边看见一个选择框“Use Autolayout”,不要选中它）
 3. 把 SlidingTabBarItemInterface.h, SlidingTabBarController.h, SlidingTabBarController.m, SlidingViewController.h, SlidingViewController.m 加入到你的项目中
 4. 在storyboard中指定tabbar controller的自定义类为SlidingTabBarController。
-5. 你可以添加你自己的viewcontroller，然后继承于SlidingViewController。在storyboard中，你在一个空白的viewcontroller中添加一个UIScrollView，设置"Bounce Horizontally"选中，并于你的viewcontroller类里的scrollView链接上。
+5. 你可以添加你自己的viewcontroller，然后继承于SlidingViewController。
 6. ok。运行。
 
 ###已知问题
