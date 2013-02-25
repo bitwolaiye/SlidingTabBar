@@ -45,6 +45,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    UINavigationController *navi = (UINavigationController *)segue.destinationViewController;
+    ((FirstDetailViewController *)[navi.viewControllers objectAtIndex:0]).delegate = self;
+}
+
 #pragma mark - datasource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;{
     return 30;
@@ -57,4 +62,8 @@
     return cell;
 }
 
+#pragma mark - view controller delegate
+-(void) viewControllerHasCanceled:(UIViewController *)controller;{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

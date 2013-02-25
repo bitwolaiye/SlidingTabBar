@@ -24,6 +24,7 @@
 		DA58E35C16D1CDF700E934EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35B16D1CDF700E934EC /* SecondViewController.m */; };
 		DA58E35F16D1CE1900E934EC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35E16D1CE1900E934EC /* ThirdViewController.m */; };
 		DA58E36116D1D43900E934EC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA58E36016D1D43900E934EC /* README.md */; };
+		DA67E5C416DB110E002318E7 /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA67E5C316DB110E002318E7 /* FirstDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,8 @@
 		DA58E35D16D1CE1900E934EC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		DA58E35E16D1CE1900E934EC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		DA58E36016D1D43900E934EC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DA67E5C216DB110E002318E7 /* FirstDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
+		DA67E5C316DB110E002318E7 /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				DA58E35616D1CDC300E934EC /* SubController */,
-				DA58E35316D1CABD00E934EC /* SlidingTabBarItemInterface.h */,
 				DA58E32E16D1C85C00E934EC /* AppDelegate.h */,
 				DA58E32F16D1C85C00E934EC /* AppDelegate.m */,
 				DA58E33716D1C85C00E934EC /* MainStoryboard.storyboard */,
@@ -113,6 +115,7 @@
 				DA58E34E16D1CA1000E934EC /* SlidingTabBarController.m */,
 				DA58E35016D1CA7200E934EC /* SlidingViewController.h */,
 				DA58E35116D1CA7200E934EC /* SlidingViewController.m */,
+				DA58E35316D1CABD00E934EC /* SlidingTabBarItemInterface.h */,
 			);
 			path = SlidingTabBar;
 			sourceTree = "<group>";
@@ -140,6 +143,8 @@
 				DA58E35B16D1CDF700E934EC /* SecondViewController.m */,
 				DA58E35D16D1CE1900E934EC /* ThirdViewController.h */,
 				DA58E35E16D1CE1900E934EC /* ThirdViewController.m */,
+				DA67E5C216DB110E002318E7 /* FirstDetailViewController.h */,
+				DA67E5C316DB110E002318E7 /* FirstDetailViewController.m */,
 			);
 			name = SubController;
 			sourceTree = "<group>";
@@ -218,6 +223,7 @@
 				DA58E35916D1CDEA00E934EC /* FirstViewController.m in Sources */,
 				DA58E35C16D1CDF700E934EC /* SecondViewController.m in Sources */,
 				DA58E35F16D1CE1900E934EC /* ThirdViewController.m in Sources */,
+				DA67E5C416DB110E002318E7 /* FirstDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

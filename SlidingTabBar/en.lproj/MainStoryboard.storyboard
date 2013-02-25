@@ -73,7 +73,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ag-gL-H1o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="903" y="172"/>
+            <point key="canvasLocation" x="633" y="180"/>
         </scene>
         <!--First View Controller - 1-->
         <scene sceneID="rOw-2U-ih9">
@@ -130,6 +130,9 @@
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="4Ih-QM-vS3" kind="modal" id="64D-ok-3F7"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -144,7 +147,28 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nW8-ic-AoA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="897" y="-412"/>
+            <point key="canvasLocation" x="633" y="-404"/>
+        </scene>
+        <!--First Detail View Controller-->
+        <scene sceneID="IlS-Re-d4P">
+            <objects>
+                <viewController id="3hS-bI-CM5" customClass="FirstDetailViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vbs-FN-wdh">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CZr-mq-6cu">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="gRg-P0-cc7">
+                            <connections>
+                                <action selector="cancel:" destination="3hS-bI-CM5" id="JTA-XF-cwb"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tCs-gp-OA3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1588" y="-404"/>
         </scene>
         <!--Sliding Tab Bar Controller-->
         <scene sceneID="15">
@@ -226,10 +250,34 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PjC-9I-Rl2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="903" y="727"/>
+            <point key="canvasLocation" x="633" y="735"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="U5w-7k-Sze">
+            <objects>
+                <navigationController id="4Ih-QM-vS3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oSm-rp-Oec">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3hS-bI-CM5" kind="relationship" relationship="rootViewController" id="Tpz-bg-SpW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X4b-S0-ITa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="-404"/>
         </scene>
     </scenes>
     <classes>
+        <class className="FirstDetailViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstDetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="cancel:"/>
+            </relationships>
+        </class>
         <class className="FirstViewController" superclassName="SlidingViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
             <relationships>
@@ -247,9 +295,6 @@
         </class>
         <class className="SlidingViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SlidingViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="scrollView" candidateClass="UIScrollView"/>
-            </relationships>
         </class>
         <class className="ThirdViewController" superclassName="SlidingViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ThirdViewController.h"/>

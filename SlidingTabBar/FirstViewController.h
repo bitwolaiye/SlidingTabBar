@@ -7,7 +7,7 @@
 //
 
 #import "SlidingViewController.h"
-
-@interface FirstViewController : SlidingViewController<UITableViewDataSource, UITableViewDelegate>
+#import "FirstDetailViewController.h"
+@interface FirstViewController : SlidingViewController<UITableViewDataSource, UITableViewDelegate, ViewControllerDelegate>
 @property (nonatomic, strong) IBOutlet UITableView *tableView;
 @end
