@@ -2,7 +2,7 @@
 //  SecondViewController.m
 //  SlidingTabBar
 //
-//  Created by ZhouQi on 13-2-18.
+//  Created by ZhouQi on 13-2-26.
 //  Copyright (c) 2013年 None. All rights reserved.
 //
 
@@ -23,20 +23,9 @@
     return self;
 }
 
-
-- (id)initWithCoder:(NSCoder *)aDecoder{
-    self = [super initWithCoder:aDecoder];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.tableView.delegate = self;
-    self.tableView.dataSource = self;
 	// Do any additional setup after loading the view.
 }
 
@@ -46,16 +35,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - datasource
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;{
-    return 30;
+- (IBAction)toDetail:(id)sender {
+    UIViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"1d"];
+    [self.parentViewController.parentViewController.navigationController pushViewController:controller animated:YES];
 }
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;{
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SecondCell"];
-    cell.textLabel.text = [NSString stringWithFormat:@"Second:  %d  --    --    --  %d", indexPath.row, indexPath.row];
-    cell.detailTextLabel.text = @"Second";
-    return cell;
-}
-
 @end

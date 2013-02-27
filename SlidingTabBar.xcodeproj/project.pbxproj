@@ -16,15 +16,38 @@
 		DA58E33216D1C85C00E934EC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DA58E33116D1C85C00E934EC /* Default.png */; };
 		DA58E33416D1C85C00E934EC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA58E33316D1C85C00E934EC /* Default@2x.png */; };
 		DA58E33616D1C85C00E934EC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA58E33516D1C85C00E934EC /* Default-568h@2x.png */; };
-		DA58E33916D1C85C00E934EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA58E33716D1C85C00E934EC /* MainStoryboard.storyboard */; };
-		DA58E34F16D1CA1000E934EC /* SlidingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E34E16D1CA1000E934EC /* SlidingTabBarController.m */; };
-		DA58E35216D1CA7200E934EC /* SlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35116D1CA7200E934EC /* SlidingViewController.m */; };
 		DA58E35516D1CC3600E934EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA58E35416D1CC3600E934EC /* QuartzCore.framework */; };
-		DA58E35916D1CDEA00E934EC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35816D1CDEA00E934EC /* FirstViewController.m */; };
-		DA58E35C16D1CDF700E934EC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35B16D1CDF700E934EC /* SecondViewController.m */; };
-		DA58E35F16D1CE1900E934EC /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA58E35E16D1CE1900E934EC /* ThirdViewController.m */; };
 		DA58E36116D1D43900E934EC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA58E36016D1D43900E934EC /* README.md */; };
-		DA67E5C416DB110E002318E7 /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA67E5C316DB110E002318E7 /* FirstDetailViewController.m */; };
+		DA686E3D16DE5F5D00AB121C /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E0B16DE5F5D00AB121C /* NSIndexPath+PSTCollectionViewAdditions.m */; };
+		DA686E3E16DE5F5D00AB121C /* PSTCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E0D16DE5F5D00AB121C /* PSTCollectionView.m */; };
+		DA686E3F16DE5F5D00AB121C /* PSTCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E0F16DE5F5D00AB121C /* PSTCollectionViewCell.m */; };
+		DA686E4016DE5F5D00AB121C /* PSTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E1216DE5F5D00AB121C /* PSTCollectionViewController.m */; };
+		DA686E4116DE5F5D00AB121C /* PSTCollectionViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E1416DE5F5D00AB121C /* PSTCollectionViewData.m */; };
+		DA686E4216DE5F5D00AB121C /* PSTCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E1616DE5F5D00AB121C /* PSTCollectionViewFlowLayout.m */; };
+		DA686E4316DE5F5D00AB121C /* PSTCollectionViewItemKey.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E1816DE5F5D00AB121C /* PSTCollectionViewItemKey.m */; };
+		DA686E4416DE5F5D00AB121C /* PSTCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E1A16DE5F5D00AB121C /* PSTCollectionViewLayout.m */; };
+		DA686E4516DE5F5D00AB121C /* PSTCollectionViewUpdateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E1C16DE5F5D00AB121C /* PSTCollectionViewUpdateItem.m */; };
+		DA686E4616DE5F5D00AB121C /* PSTGridLayoutInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E1E16DE5F5D00AB121C /* PSTGridLayoutInfo.m */; };
+		DA686E4716DE5F5D00AB121C /* PSTGridLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E2016DE5F5D00AB121C /* PSTGridLayoutItem.m */; };
+		DA686E4816DE5F5D00AB121C /* PSTGridLayoutRow.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E2216DE5F5D00AB121C /* PSTGridLayoutRow.m */; };
+		DA686E4916DE5F5D00AB121C /* PSTGridLayoutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E2416DE5F5D00AB121C /* PSTGridLayoutSection.m */; };
+		DA686E4A16DE5F5D00AB121C /* RADeferredOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E2716DE5F5D00AB121C /* RADeferredOperation.m */; };
+		DA686E4B16DE5F5D00AB121C /* RAPageCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E2916DE5F5D00AB121C /* RAPageCollectionView.m */; };
+		DA686E4C16DE5F5D00AB121C /* RAPageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E2B16DE5F5D00AB121C /* RAPageCollectionViewCell.m */; };
+		DA686E4D16DE5F5D00AB121C /* RAPageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E2E16DE5F5D00AB121C /* RAPageCollectionViewController.m */; };
+		DA686E4E16DE5F5D00AB121C /* RAPageCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E3216DE5F5D00AB121C /* RAPageCollectionViewFlowLayout.m */; };
+		DA686E4F16DE5F5D00AB121C /* RAPageCollectionViewSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E3416DE5F5D00AB121C /* RAPageCollectionViewSpacer.m */; };
+		DA686E5016DE5F5D00AB121C /* RAPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E3716DE5F5D00AB121C /* RAPageViewController.m */; };
+		DA686E5116DE5F5D00AB121C /* RAPageViewControllerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E3A16DE5F5D00AB121C /* RAPageViewControllerScrollView.m */; };
+		DA686E5416DE5F6A00AB121C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA686E5216DE5F6A00AB121C /* MainStoryboard.storyboard */; };
+		DA686E6216DE5FB800AB121C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E5616DE5FB800AB121C /* ThirdViewController.m */; };
+		DA686E6316DE5FB800AB121C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E5716DE5FB800AB121C /* FirstViewController.m */; };
+		DA686E6416DE5FB800AB121C /* SecondDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E5816DE5FB800AB121C /* SecondDetailViewController.m */; };
+		DA686E6516DE5FB800AB121C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E5A16DE5FB800AB121C /* SecondViewController.m */; };
+		DA686E6616DE5FB800AB121C /* ThirdDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E5B16DE5FB800AB121C /* ThirdDetailViewController.m */; };
+		DA686E6716DE5FB800AB121C /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E5F16DE5FB800AB121C /* FirstDetailViewController.m */; };
+		DA686E6C16DE5FD200AB121C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E6816DE5FD100AB121C /* RootViewController.m */; };
+		DA686E6D16DE5FD200AB121C /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA686E6A16DE5FD200AB121C /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,22 +64,75 @@
 		DA58E33116D1C85C00E934EC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DA58E33316D1C85C00E934EC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DA58E33516D1C85C00E934EC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		DA58E33816D1C85C00E934EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DA58E34D16D1CA1000E934EC /* SlidingTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingTabBarController.h; sourceTree = "<group>"; };
-		DA58E34E16D1CA1000E934EC /* SlidingTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingTabBarController.m; sourceTree = "<group>"; };
-		DA58E35016D1CA7200E934EC /* SlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingViewController.h; sourceTree = "<group>"; };
-		DA58E35116D1CA7200E934EC /* SlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingViewController.m; sourceTree = "<group>"; };
-		DA58E35316D1CABD00E934EC /* SlidingTabBarItemInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlidingTabBarItemInterface.h; sourceTree = "<group>"; };
 		DA58E35416D1CC3600E934EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		DA58E35716D1CDEA00E934EC /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		DA58E35816D1CDEA00E934EC /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		DA58E35A16D1CDF700E934EC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		DA58E35B16D1CDF700E934EC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		DA58E35D16D1CE1900E934EC /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		DA58E35E16D1CE1900E934EC /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		DA58E36016D1D43900E934EC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		DA67E5C216DB110E002318E7 /* FirstDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
-		DA67E5C316DB110E002318E7 /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
+		DA686E0A16DE5F5D00AB121C /* NSIndexPath+PSTCollectionViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+PSTCollectionViewAdditions.h"; sourceTree = "<group>"; };
+		DA686E0B16DE5F5D00AB121C /* NSIndexPath+PSTCollectionViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+PSTCollectionViewAdditions.m"; sourceTree = "<group>"; };
+		DA686E0C16DE5F5D00AB121C /* PSTCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionView.h; sourceTree = "<group>"; };
+		DA686E0D16DE5F5D00AB121C /* PSTCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionView.m; sourceTree = "<group>"; };
+		DA686E0E16DE5F5D00AB121C /* PSTCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewCell.h; sourceTree = "<group>"; };
+		DA686E0F16DE5F5D00AB121C /* PSTCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewCell.m; sourceTree = "<group>"; };
+		DA686E1016DE5F5D00AB121C /* PSTCollectionViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewCommon.h; sourceTree = "<group>"; };
+		DA686E1116DE5F5D00AB121C /* PSTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewController.h; sourceTree = "<group>"; };
+		DA686E1216DE5F5D00AB121C /* PSTCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewController.m; sourceTree = "<group>"; };
+		DA686E1316DE5F5D00AB121C /* PSTCollectionViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewData.h; sourceTree = "<group>"; };
+		DA686E1416DE5F5D00AB121C /* PSTCollectionViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewData.m; sourceTree = "<group>"; };
+		DA686E1516DE5F5D00AB121C /* PSTCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		DA686E1616DE5F5D00AB121C /* PSTCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		DA686E1716DE5F5D00AB121C /* PSTCollectionViewItemKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewItemKey.h; sourceTree = "<group>"; };
+		DA686E1816DE5F5D00AB121C /* PSTCollectionViewItemKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewItemKey.m; sourceTree = "<group>"; };
+		DA686E1916DE5F5D00AB121C /* PSTCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewLayout.h; sourceTree = "<group>"; };
+		DA686E1A16DE5F5D00AB121C /* PSTCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewLayout.m; sourceTree = "<group>"; };
+		DA686E1B16DE5F5D00AB121C /* PSTCollectionViewUpdateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTCollectionViewUpdateItem.h; sourceTree = "<group>"; };
+		DA686E1C16DE5F5D00AB121C /* PSTCollectionViewUpdateItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTCollectionViewUpdateItem.m; sourceTree = "<group>"; };
+		DA686E1D16DE5F5D00AB121C /* PSTGridLayoutInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutInfo.h; sourceTree = "<group>"; };
+		DA686E1E16DE5F5D00AB121C /* PSTGridLayoutInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutInfo.m; sourceTree = "<group>"; };
+		DA686E1F16DE5F5D00AB121C /* PSTGridLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutItem.h; sourceTree = "<group>"; };
+		DA686E2016DE5F5D00AB121C /* PSTGridLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutItem.m; sourceTree = "<group>"; };
+		DA686E2116DE5F5D00AB121C /* PSTGridLayoutRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutRow.h; sourceTree = "<group>"; };
+		DA686E2216DE5F5D00AB121C /* PSTGridLayoutRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutRow.m; sourceTree = "<group>"; };
+		DA686E2316DE5F5D00AB121C /* PSTGridLayoutSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTGridLayoutSection.h; sourceTree = "<group>"; };
+		DA686E2416DE5F5D00AB121C /* PSTGridLayoutSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutSection.m; sourceTree = "<group>"; };
+		DA686E2616DE5F5D00AB121C /* RADeferredOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RADeferredOperation.h; sourceTree = "<group>"; };
+		DA686E2716DE5F5D00AB121C /* RADeferredOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RADeferredOperation.m; sourceTree = "<group>"; };
+		DA686E2816DE5F5D00AB121C /* RAPageCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageCollectionView.h; sourceTree = "<group>"; };
+		DA686E2916DE5F5D00AB121C /* RAPageCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAPageCollectionView.m; sourceTree = "<group>"; };
+		DA686E2A16DE5F5D00AB121C /* RAPageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageCollectionViewCell.h; sourceTree = "<group>"; };
+		DA686E2B16DE5F5D00AB121C /* RAPageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAPageCollectionViewCell.m; sourceTree = "<group>"; };
+		DA686E2C16DE5F5D00AB121C /* RAPageCollectionViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageCollectionViewCellDelegate.h; sourceTree = "<group>"; };
+		DA686E2D16DE5F5D00AB121C /* RAPageCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageCollectionViewController.h; sourceTree = "<group>"; };
+		DA686E2E16DE5F5D00AB121C /* RAPageCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAPageCollectionViewController.m; sourceTree = "<group>"; };
+		DA686E2F16DE5F5D00AB121C /* RAPageCollectionViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageCollectionViewControllerDelegate.h; sourceTree = "<group>"; };
+		DA686E3016DE5F5D00AB121C /* RAPageCollectionViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageCollectionViewDelegate.h; sourceTree = "<group>"; };
+		DA686E3116DE5F5D00AB121C /* RAPageCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		DA686E3216DE5F5D00AB121C /* RAPageCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAPageCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		DA686E3316DE5F5D00AB121C /* RAPageCollectionViewSpacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageCollectionViewSpacer.h; sourceTree = "<group>"; };
+		DA686E3416DE5F5D00AB121C /* RAPageCollectionViewSpacer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAPageCollectionViewSpacer.m; sourceTree = "<group>"; };
+		DA686E3516DE5F5D00AB121C /* RAPageViewController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RAPageViewController-Prefix.pch"; sourceTree = "<group>"; };
+		DA686E3616DE5F5D00AB121C /* RAPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageViewController.h; sourceTree = "<group>"; };
+		DA686E3716DE5F5D00AB121C /* RAPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAPageViewController.m; sourceTree = "<group>"; };
+		DA686E3816DE5F5D00AB121C /* RAPageViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageViewControllerDelegate.h; sourceTree = "<group>"; };
+		DA686E3916DE5F5D00AB121C /* RAPageViewControllerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageViewControllerScrollView.h; sourceTree = "<group>"; };
+		DA686E3A16DE5F5D00AB121C /* RAPageViewControllerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAPageViewControllerScrollView.m; sourceTree = "<group>"; };
+		DA686E3B16DE5F5D00AB121C /* RAPageViewControllerScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageViewControllerScrollViewDelegate.h; sourceTree = "<group>"; };
+		DA686E3C16DE5F5D00AB121C /* RAPageViewControllerSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPageViewControllerSubclass.h; sourceTree = "<group>"; };
+		DA686E5316DE5F6A00AB121C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DA686E5616DE5FB800AB121C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		DA686E5716DE5FB800AB121C /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DA686E5816DE5FB800AB121C /* SecondDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondDetailViewController.m; sourceTree = "<group>"; };
+		DA686E5916DE5FB800AB121C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DA686E5A16DE5FB800AB121C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DA686E5B16DE5FB800AB121C /* ThirdDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdDetailViewController.m; sourceTree = "<group>"; };
+		DA686E5C16DE5FB800AB121C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		DA686E5D16DE5FB800AB121C /* ThirdDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdDetailViewController.h; sourceTree = "<group>"; };
+		DA686E5E16DE5FB800AB121C /* SecondDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondDetailViewController.h; sourceTree = "<group>"; };
+		DA686E5F16DE5FB800AB121C /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
+		DA686E6016DE5FB800AB121C /* FirstDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
+		DA686E6116DE5FB800AB121C /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DA686E6816DE5FD100AB121C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DA686E6916DE5FD100AB121C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DA686E6A16DE5FD200AB121C /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		DA686E6B16DE5FD200AB121C /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,16 +182,17 @@
 		DA58E32516D1C85C00E934EC /* SlidingTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				DA58E35616D1CDC300E934EC /* SubController */,
+				DA686E6816DE5FD100AB121C /* RootViewController.m */,
+				DA686E6916DE5FD100AB121C /* RootViewController.h */,
+				DA686E6A16DE5FD200AB121C /* CollectionViewController.m */,
+				DA686E6B16DE5FD200AB121C /* CollectionViewController.h */,
+				DA686E5516DE5F9700AB121C /* OtherController */,
+				DA686E5216DE5F6A00AB121C /* MainStoryboard.storyboard */,
+				DA686E0916DE5F5D00AB121C /* PSTCollectionView */,
+				DA686E2516DE5F5D00AB121C /* RAPageViewController */,
 				DA58E32E16D1C85C00E934EC /* AppDelegate.h */,
 				DA58E32F16D1C85C00E934EC /* AppDelegate.m */,
-				DA58E33716D1C85C00E934EC /* MainStoryboard.storyboard */,
 				DA58E32616D1C85C00E934EC /* Supporting Files */,
-				DA58E34D16D1CA1000E934EC /* SlidingTabBarController.h */,
-				DA58E34E16D1CA1000E934EC /* SlidingTabBarController.m */,
-				DA58E35016D1CA7200E934EC /* SlidingViewController.h */,
-				DA58E35116D1CA7200E934EC /* SlidingViewController.m */,
-				DA58E35316D1CABD00E934EC /* SlidingTabBarItemInterface.h */,
 			);
 			path = SlidingTabBar;
 			sourceTree = "<group>";
@@ -134,19 +211,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DA58E35616D1CDC300E934EC /* SubController */ = {
+		DA686E0916DE5F5D00AB121C /* PSTCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				DA58E35716D1CDEA00E934EC /* FirstViewController.h */,
-				DA58E35816D1CDEA00E934EC /* FirstViewController.m */,
-				DA58E35A16D1CDF700E934EC /* SecondViewController.h */,
-				DA58E35B16D1CDF700E934EC /* SecondViewController.m */,
-				DA58E35D16D1CE1900E934EC /* ThirdViewController.h */,
-				DA58E35E16D1CE1900E934EC /* ThirdViewController.m */,
-				DA67E5C216DB110E002318E7 /* FirstDetailViewController.h */,
-				DA67E5C316DB110E002318E7 /* FirstDetailViewController.m */,
+				DA686E0A16DE5F5D00AB121C /* NSIndexPath+PSTCollectionViewAdditions.h */,
+				DA686E0B16DE5F5D00AB121C /* NSIndexPath+PSTCollectionViewAdditions.m */,
+				DA686E0C16DE5F5D00AB121C /* PSTCollectionView.h */,
+				DA686E0D16DE5F5D00AB121C /* PSTCollectionView.m */,
+				DA686E0E16DE5F5D00AB121C /* PSTCollectionViewCell.h */,
+				DA686E0F16DE5F5D00AB121C /* PSTCollectionViewCell.m */,
+				DA686E1016DE5F5D00AB121C /* PSTCollectionViewCommon.h */,
+				DA686E1116DE5F5D00AB121C /* PSTCollectionViewController.h */,
+				DA686E1216DE5F5D00AB121C /* PSTCollectionViewController.m */,
+				DA686E1316DE5F5D00AB121C /* PSTCollectionViewData.h */,
+				DA686E1416DE5F5D00AB121C /* PSTCollectionViewData.m */,
+				DA686E1516DE5F5D00AB121C /* PSTCollectionViewFlowLayout.h */,
+				DA686E1616DE5F5D00AB121C /* PSTCollectionViewFlowLayout.m */,
+				DA686E1716DE5F5D00AB121C /* PSTCollectionViewItemKey.h */,
+				DA686E1816DE5F5D00AB121C /* PSTCollectionViewItemKey.m */,
+				DA686E1916DE5F5D00AB121C /* PSTCollectionViewLayout.h */,
+				DA686E1A16DE5F5D00AB121C /* PSTCollectionViewLayout.m */,
+				DA686E1B16DE5F5D00AB121C /* PSTCollectionViewUpdateItem.h */,
+				DA686E1C16DE5F5D00AB121C /* PSTCollectionViewUpdateItem.m */,
+				DA686E1D16DE5F5D00AB121C /* PSTGridLayoutInfo.h */,
+				DA686E1E16DE5F5D00AB121C /* PSTGridLayoutInfo.m */,
+				DA686E1F16DE5F5D00AB121C /* PSTGridLayoutItem.h */,
+				DA686E2016DE5F5D00AB121C /* PSTGridLayoutItem.m */,
+				DA686E2116DE5F5D00AB121C /* PSTGridLayoutRow.h */,
+				DA686E2216DE5F5D00AB121C /* PSTGridLayoutRow.m */,
+				DA686E2316DE5F5D00AB121C /* PSTGridLayoutSection.h */,
+				DA686E2416DE5F5D00AB121C /* PSTGridLayoutSection.m */,
 			);
-			name = SubController;
+			path = PSTCollectionView;
+			sourceTree = "<group>";
+		};
+		DA686E2516DE5F5D00AB121C /* RAPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA686E2616DE5F5D00AB121C /* RADeferredOperation.h */,
+				DA686E2716DE5F5D00AB121C /* RADeferredOperation.m */,
+				DA686E2816DE5F5D00AB121C /* RAPageCollectionView.h */,
+				DA686E2916DE5F5D00AB121C /* RAPageCollectionView.m */,
+				DA686E2A16DE5F5D00AB121C /* RAPageCollectionViewCell.h */,
+				DA686E2B16DE5F5D00AB121C /* RAPageCollectionViewCell.m */,
+				DA686E2C16DE5F5D00AB121C /* RAPageCollectionViewCellDelegate.h */,
+				DA686E2D16DE5F5D00AB121C /* RAPageCollectionViewController.h */,
+				DA686E2E16DE5F5D00AB121C /* RAPageCollectionViewController.m */,
+				DA686E2F16DE5F5D00AB121C /* RAPageCollectionViewControllerDelegate.h */,
+				DA686E3016DE5F5D00AB121C /* RAPageCollectionViewDelegate.h */,
+				DA686E3116DE5F5D00AB121C /* RAPageCollectionViewFlowLayout.h */,
+				DA686E3216DE5F5D00AB121C /* RAPageCollectionViewFlowLayout.m */,
+				DA686E3316DE5F5D00AB121C /* RAPageCollectionViewSpacer.h */,
+				DA686E3416DE5F5D00AB121C /* RAPageCollectionViewSpacer.m */,
+				DA686E3516DE5F5D00AB121C /* RAPageViewController-Prefix.pch */,
+				DA686E3616DE5F5D00AB121C /* RAPageViewController.h */,
+				DA686E3716DE5F5D00AB121C /* RAPageViewController.m */,
+				DA686E3816DE5F5D00AB121C /* RAPageViewControllerDelegate.h */,
+				DA686E3916DE5F5D00AB121C /* RAPageViewControllerScrollView.h */,
+				DA686E3A16DE5F5D00AB121C /* RAPageViewControllerScrollView.m */,
+				DA686E3B16DE5F5D00AB121C /* RAPageViewControllerScrollViewDelegate.h */,
+				DA686E3C16DE5F5D00AB121C /* RAPageViewControllerSubclass.h */,
+			);
+			path = RAPageViewController;
+			sourceTree = "<group>";
+		};
+		DA686E5516DE5F9700AB121C /* OtherController */ = {
+			isa = PBXGroup;
+			children = (
+				DA686E5616DE5FB800AB121C /* ThirdViewController.m */,
+				DA686E5716DE5FB800AB121C /* FirstViewController.m */,
+				DA686E5816DE5FB800AB121C /* SecondDetailViewController.m */,
+				DA686E5916DE5FB800AB121C /* SecondViewController.h */,
+				DA686E5A16DE5FB800AB121C /* SecondViewController.m */,
+				DA686E5B16DE5FB800AB121C /* ThirdDetailViewController.m */,
+				DA686E5C16DE5FB800AB121C /* ThirdViewController.h */,
+				DA686E5D16DE5FB800AB121C /* ThirdDetailViewController.h */,
+				DA686E5E16DE5FB800AB121C /* SecondDetailViewController.h */,
+				DA686E5F16DE5FB800AB121C /* FirstDetailViewController.m */,
+				DA686E6016DE5FB800AB121C /* FirstDetailViewController.h */,
+				DA686E6116DE5FB800AB121C /* FirstViewController.h */,
+			);
+			name = OtherController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,8 +349,8 @@
 				DA58E33216D1C85C00E934EC /* Default.png in Resources */,
 				DA58E33416D1C85C00E934EC /* Default@2x.png in Resources */,
 				DA58E33616D1C85C00E934EC /* Default-568h@2x.png in Resources */,
-				DA58E33916D1C85C00E934EC /* MainStoryboard.storyboard in Resources */,
 				DA58E36116D1D43900E934EC /* README.md in Resources */,
+				DA686E5416DE5F6A00AB121C /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,12 +363,35 @@
 			files = (
 				DA58E32C16D1C85C00E934EC /* main.m in Sources */,
 				DA58E33016D1C85C00E934EC /* AppDelegate.m in Sources */,
-				DA58E34F16D1CA1000E934EC /* SlidingTabBarController.m in Sources */,
-				DA58E35216D1CA7200E934EC /* SlidingViewController.m in Sources */,
-				DA58E35916D1CDEA00E934EC /* FirstViewController.m in Sources */,
-				DA58E35C16D1CDF700E934EC /* SecondViewController.m in Sources */,
-				DA58E35F16D1CE1900E934EC /* ThirdViewController.m in Sources */,
-				DA67E5C416DB110E002318E7 /* FirstDetailViewController.m in Sources */,
+				DA686E3D16DE5F5D00AB121C /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */,
+				DA686E3E16DE5F5D00AB121C /* PSTCollectionView.m in Sources */,
+				DA686E3F16DE5F5D00AB121C /* PSTCollectionViewCell.m in Sources */,
+				DA686E4016DE5F5D00AB121C /* PSTCollectionViewController.m in Sources */,
+				DA686E4116DE5F5D00AB121C /* PSTCollectionViewData.m in Sources */,
+				DA686E4216DE5F5D00AB121C /* PSTCollectionViewFlowLayout.m in Sources */,
+				DA686E4316DE5F5D00AB121C /* PSTCollectionViewItemKey.m in Sources */,
+				DA686E4416DE5F5D00AB121C /* PSTCollectionViewLayout.m in Sources */,
+				DA686E4516DE5F5D00AB121C /* PSTCollectionViewUpdateItem.m in Sources */,
+				DA686E4616DE5F5D00AB121C /* PSTGridLayoutInfo.m in Sources */,
+				DA686E4716DE5F5D00AB121C /* PSTGridLayoutItem.m in Sources */,
+				DA686E4816DE5F5D00AB121C /* PSTGridLayoutRow.m in Sources */,
+				DA686E4916DE5F5D00AB121C /* PSTGridLayoutSection.m in Sources */,
+				DA686E4A16DE5F5D00AB121C /* RADeferredOperation.m in Sources */,
+				DA686E4B16DE5F5D00AB121C /* RAPageCollectionView.m in Sources */,
+				DA686E4C16DE5F5D00AB121C /* RAPageCollectionViewCell.m in Sources */,
+				DA686E4D16DE5F5D00AB121C /* RAPageCollectionViewController.m in Sources */,
+				DA686E4E16DE5F5D00AB121C /* RAPageCollectionViewFlowLayout.m in Sources */,
+				DA686E4F16DE5F5D00AB121C /* RAPageCollectionViewSpacer.m in Sources */,
+				DA686E5016DE5F5D00AB121C /* RAPageViewController.m in Sources */,
+				DA686E5116DE5F5D00AB121C /* RAPageViewControllerScrollView.m in Sources */,
+				DA686E6216DE5FB800AB121C /* ThirdViewController.m in Sources */,
+				DA686E6316DE5FB800AB121C /* FirstViewController.m in Sources */,
+				DA686E6416DE5FB800AB121C /* SecondDetailViewController.m in Sources */,
+				DA686E6516DE5FB800AB121C /* SecondViewController.m in Sources */,
+				DA686E6616DE5FB800AB121C /* ThirdDetailViewController.m in Sources */,
+				DA686E6716DE5FB800AB121C /* FirstDetailViewController.m in Sources */,
+				DA686E6C16DE5FD200AB121C /* RootViewController.m in Sources */,
+				DA686E6D16DE5FD200AB121C /* CollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,10 +406,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		DA58E33716D1C85C00E934EC /* MainStoryboard.storyboard */ = {
+		DA686E5216DE5F6A00AB121C /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DA58E33816D1C85C00E934EC /* en */,
+				DA686E5316DE5F6A00AB121C /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";

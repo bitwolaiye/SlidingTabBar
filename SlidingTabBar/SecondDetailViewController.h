@@ -1,5 +1,5 @@
 //
-//  ThirdViewController.h
+//  SecondDetailViewController.h
 //  SlidingTabBar
 //
 //  Created by ZhouQi on 13-2-26.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ThirdViewController : UITableViewController
+@interface SecondDetailViewController : UIViewController
 
 @end

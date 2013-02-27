@@ -1,18 +1,18 @@
 //
-//  FirstDetailViewController.m
+//  ThirdDetailViewController.m
 //  SlidingTabBar
 //
 //  Created by ZhouQi on 13-2-26.
 //  Copyright (c) 2013年 None. All rights reserved.
 //
 
-#import "FirstDetailViewController.h"
+#import "ThirdDetailViewController.h"
 
-@interface FirstDetailViewController ()
+@interface ThirdDetailViewController ()
 
 @end
 
-@implementation FirstDetailViewController
+@implementation ThirdDetailViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
